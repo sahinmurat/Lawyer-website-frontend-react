@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+/* font-family: 'Cantarell', sans-serif !important; */
+
+:root {
+    --primary-white : #ffffff;
+    --primary-dark : rgba(2,10,32,0.9);
+    --primary-red : rgb(220, 20, 60);
+}
+
+.header-wrapper {
+    position: relative;
+    background: url(hukuk.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .main-info h1 {
+    color: var(--primary-white);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+/*-------- TYPED TEXT ---------------*/
+.typed-text {
+    font-size: 2rem;
+    color: var(--primary-white);
+    margin: 2rem;
+  }

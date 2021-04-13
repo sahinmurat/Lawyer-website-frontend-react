@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Main from "../components/Main";
+import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 
 const AppRouter = () => {
@@ -7,7 +7,7 @@ const AppRouter = () => {
        <Router>
            <Navbar/>
            <Switch>
-               <Route exact path='/' component={Main} />
+               <Route exact path='/' component={Header} />
            </Switch>
        </Router>
     )
