@@ -9,7 +9,7 @@
 
 .header-wrapper {
     position: relative;
-    background: url(hukuk.jpg) no-repeat;
+    background: url(a.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -33,7 +33,7 @@
     color: var(--primary-white);
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Cantarell', monospace;
   }
 
 /*-------- TYPED TEXT ---------------*/
@@ -41,4 +41,26 @@
     font-size: 2rem;
     color: var(--primary-white);
     margin: 2rem;
+    font-family: 'Cantarell', monospace;
+    border: 1px groove var(--primary-red);
+    border-radius: 5px;
+  }
+
+  .btn-main-offer {
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 2px solid var(--primary-red);
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: var(--primary-white);
+    margin: 2rem;
+  }
+  
+  .btn-main-offer:hover {
+    text-decoration: none;
+    background-color: var(--primary-red);
+    color: var(--primary-white);
+    transition:  .2s ease-in-out;
+    cursor: pointer;
   }
