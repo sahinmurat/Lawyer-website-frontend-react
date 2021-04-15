@@ -9,6 +9,7 @@
     --primary-white : #ffffff;
     --primary-dark : rgba(2,10,32,0.9);
     --primary-red : rgb(220, 20, 60);
+    --primary-dark-grey: rgb(102, 102, 102);
 }
 
 nav {
