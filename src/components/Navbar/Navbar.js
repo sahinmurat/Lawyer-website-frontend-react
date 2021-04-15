@@ -11,7 +11,7 @@ const Navbar = () => {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} /> 
             </button>
-            {/* A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z –a b c ç d e f g ğ h ı i j k l m n o ö p r s ş t u ü v y z  */}
+            {/*Ç Ğ I İ Ş ç ğ ı ş */}
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
