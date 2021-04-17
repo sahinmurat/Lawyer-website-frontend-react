@@ -4,6 +4,13 @@
 /* font-family: 'Questrial', sans-serif !important; */
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 /* font-family: 'Cantarell', sans-serif !important; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
 
 :root {
     --primary-white : #ffffff;
@@ -18,7 +25,10 @@ nav {
     color: white !important;
     /* font-family: "Roboto Condensed", sans-serif !important; */
     /* font-family: 'Questrial', sans-serif !important; */
-    font-family: 'Cantarell', sans-serif !important;
+    /* font-family: 'Cantarell', sans-serif !important; */
+    font-family: 'Raleway', sans-serif !important;
+    /* font-family: 'Montserrat', sans-serif !important; */
+    /* font-family: 'Comfortaa', cursive !important; */
   }
 
 .navbar-brand {

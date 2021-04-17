@@ -38,7 +38,7 @@ const Connection = () => {
   return (
     <div id="contacts" className="contacts">
       <div className="text-center">
-        <h1>İletİşİm</h1>
+        <h2>İletİşİm </h2>
         <p>Lütfen formu doldurup gönderin. Sizinle en yakın zamanda iletişime geçeceğim.</p>
         <span className="success-message">{successMessage}</span>
       </div>
