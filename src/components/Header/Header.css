@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 /* font-family: 'Cantarell', sans-serif !important; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
 
 :root {
     --primary-white : #ffffff;
@@ -33,7 +39,10 @@
     color: var(--primary-white);
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    font-family: 'Cantarell', monospace;
+    /* font-family: 'Cantarell', monospace; */
+    /* font-family: 'Raleway', sans-serif !important; */
+    font-family: 'Montserrat', sans-serif !important;
+    /* font-family: 'Comfortaa', cursive !important; */
   }
 
 /*-------- TYPED TEXT ---------------*/
@@ -41,11 +50,15 @@
     font-size: 1.5rem;
     color: var(--primary-white);
     margin: 2rem 2rem 1rem 2rem;
-    font-family: 'Cantarell', monospace;
+    /* font-family: 'Cantarell', sans-serif !important; */
+    font-family: 'Raleway', sans-serif !important;
+    /* font-family: 'Montserrat', sans-serif !important; */
+    /* font-family: 'Comfortaa', cursive !important; */
     border: 1px groove var(--primary-red);
     border-radius: 5px;
     padding: 0.625rem 0.75rem 0.75rem 0.75rem;
     text-transform: uppercase;
+
   }
 
   .btn-main-offer {

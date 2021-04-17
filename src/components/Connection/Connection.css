@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
 :root {
     --primary-white : #ffffff;
     --primary-dark : rgba(2,10,32,0.9);
@@ -13,10 +20,13 @@
     padding: 3rem 0;
   }
   
-  .contacts h1 {
+  .contacts h2 {
+    font-family: 'Comfortaa', cursive !important;
     color: var(--primary-red);
     padding: 1.3rem 0;
     text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
   }
   
   .contacts p {
