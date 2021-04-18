@@ -66,3 +66,10 @@ nav ul li {
     height: 45px;
     border-radius: 10px;
   }
+
+@media(max-width:400px) {
+    .logo {
+      height: 37px;
+      border-radius: 10px;
+    }
+  }
