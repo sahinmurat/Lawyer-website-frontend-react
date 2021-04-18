@@ -54,7 +54,7 @@
     font-family: 'Raleway', sans-serif !important;
     /* font-family: 'Montserrat', sans-serif !important; */
     /* font-family: 'Comfortaa', cursive !important; */
-    border: 1px groove var(--primary-red);
+    border: 2px groove var(--primary-red);
     border-radius: 5px;
     padding: 0.625rem 0.75rem 0.75rem 0.75rem;
     text-transform: uppercase;
