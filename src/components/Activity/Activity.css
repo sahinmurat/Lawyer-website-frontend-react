@@ -1,12 +1,112 @@
-.header{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+
+:root {
+    --primary-white : #ffffff;
+    --primary-dark : rgba(2,10,32,0.9);
+    --primary-red : rgb(220, 20, 60);
+    --primary-dark-grey: rgb(102, 102, 102);
+    --primary-green: green;
+    --primary-light-grey: #f4f4f4;
+
+}
+
+.titel{
     text-align: center;
+    color: var(--primary-red);
+    /* font-family: 'Comfortaa', cursive; */
+    margin: 20px;
+    font-weight: 600;
 }
 
 .wrapper-titel {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 .activity-titel {
-    height: 100px;
-    width: 150px;
-    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    border-radius: 20px;
+    box-shadow: 5px -5px rgb(218, 171, 171);
+   }
+
+.elektro {
+    background: url(etc.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.tüketici {
+    background: url(tüket.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.imar {
+    background: url(im.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+
+}
+.vergi {
+    background: url(verg.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.sözlesme {
+    background: url(soz.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.fikir {
+    background: url(fikri.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.deniz {
+    background: url(den.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.sirket {
+    background: url(sirk.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.tip {
+    background: url(tip.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.kvkk {
+    background: url(kisisel.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position:bottom;
 }
