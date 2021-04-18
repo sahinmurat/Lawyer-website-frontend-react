@@ -3,11 +3,13 @@ import './Navbar.css'
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import logo from './logo.png'
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
-            <a className="navbar-brand" href="#">AV. EMIR</a>
+            {/* <a className="navbar-brand" href="#">AV. EMIR</a> */}
+            <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} /> 
             </button>

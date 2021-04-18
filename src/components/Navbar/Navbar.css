@@ -49,8 +49,8 @@ nav ul li {
 
 .navbar-nav > li > a {
     color: var(--primary-white) !important;
-    margin-left: 0.55rem;
-    margin-right: 0.55rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
     border-top: 0.1875rem solid var(--primary-dark);
   }
 
@@ -60,4 +60,9 @@ nav ul li {
 
   .navbar-nav > li > a:hover {
     border-top: 0.1875rem solid var(--primary-red);
+  }
+
+  .logo {
+    height: 45px;
+    border-radius: 10px;
   }
