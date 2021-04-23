@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className='wrapper'>
+        <div id="about" className='wrapper'>
             <h2 className='titel' >HAKKIMIZDA</h2>
 
             <p className='start' >Erol Hukuk & Danışmanlık; güvenilir, güncel gelişmeleri yakından takip eden, müvekkil odaklı ve kaliteli hizmet anlayışı ile faaliyet göstermektedir.  Alanında uzman avukatlar ve iş ortakları ile yerli ve yabancı şirketlere, kurumlara ve bireylere en iyi şekilde hizmet sunmaktadır. Avukatlık hizmeti ve hukuki danışmanlığının sadece ihtilafları çözmek değil, aynı zamanda ihtilafların oluşmasını engellemek olduğu inancıyla yola çıkan Erol Hukuk & Danışmanlık;
