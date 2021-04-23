@@ -3,10 +3,18 @@ import './Activity.css'
 
 function Activity() {
     return (
-        <div className='wrapper-all' >
+        <div id="services" className='wrapper-all' >
             <h2 className='titel'>FAALİYET ALANLARI</h2>
             <div className='wrapper-titel' >
-                <div className='activity-titel elektro' >ELEKTRONİK TİCARET (E-TİCARET) HUKUKU </div>
+                <div className='activity-titel elektro' >
+                    ELEKTRONİK TİCARET (E-TİCARET) HUKUKU
+                    
+                        {/* <span className="aa">isuiusu</span>  */}
+                   
+                </div>
+
+
+
                 <div className='activity-titel tüketici' >TÜKETİCİ HUKUKU</div>
                 <div className='activity-titel imar' >İMAR HUKUKU</div>
                 <div className='activity-titel vergi' >VERGİ HUKUKU </div>

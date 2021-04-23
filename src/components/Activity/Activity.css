@@ -46,6 +46,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    position: relative;
 }
 
 .tüketici {
@@ -110,3 +111,27 @@
     background-repeat: no-repeat;
     background-position:bottom;
 }
+
+
+.aa{
+    /* background-color: rgba(121, 62, 74, 0.7);
+    position: absolute;
+    bottom: -100%;
+    border-radius: 20px; */
+    /* box-shadow: 5px -5px rgb(218, 171, 171); */
+    /* transition: .3s;
+    width: 100%;
+    height: 100%; */
+}
+
+/* .elektro:hover .aa{
+    bottom: 0;
+    margin-left: -10px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.elektro:hover{
+    box-shadow: none;
+} */
