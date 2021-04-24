@@ -21,7 +21,7 @@
 
 nav {
     z-index: 2;
-    background-color: rgba(2,10,32,0.2);
+    background-color: rgba(2,10,32,0.4);
     color: white !important;
     font-family: 'Raleway', sans-serif !important;
   }
@@ -46,7 +46,7 @@ nav ul li {
     color: var(--primary-white) !important;
     margin-left: 0.4rem;
     margin-right: 0.4rem;
-    border-top: 0.1875rem solid var(--primary-dark);
+    border-top: 0.1875rem solid rgba(2,10,32,0);
   }
 
   .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
