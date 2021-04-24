@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar/Navbar";
 const AppRouter = () => {
     return (
         <Router>
-            <Navbar />
+            {/* <Navbar /> */}
             <Switch>
                 <Route exact path='/' component={Header} />
             </Switch>
