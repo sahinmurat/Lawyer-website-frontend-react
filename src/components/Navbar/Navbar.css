@@ -19,9 +19,16 @@
     --primary-dark-grey: rgb(102, 102, 102);
 }
 
-nav {
+.header {
     z-index: 2;
     background-color: rgba(2,10,32,0.4);
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+  }
+
+.detail {
+    z-index: 2;
+    background-color:  rgba(2,10,32,0.9);
     color: white !important;
     font-family: 'Raleway', sans-serif !important;
   }
