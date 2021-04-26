@@ -1,5 +1,6 @@
 import React from 'react'
 import { useHistory, useParams } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
 import { Eticaret, Kvkk, Tip, Sirket, Deniz, Fikir, Sözlesme, Vergi, Imar, Tüketici  } from './Content';
 
 const a = [ 'Eticaret', 'Kvkk', 'Tip', 'Sirket', 'Deniz', 'Fikir', 'Sözlesme', 'Vergi', 'Imar', 'Tüketici']
@@ -9,6 +10,7 @@ function Detail() {
     
     return (
         <div>
+            <Navbar style='detail'/>
             {area == 'Kvkk'  ?  <Kvkk/> : null }
             {area == 'Eticaret'  ?  <Eticaret/> : null }
             {area == 'Tip'  ?  <Tip/> : null }
