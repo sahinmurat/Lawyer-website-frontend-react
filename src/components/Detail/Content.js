@@ -208,7 +208,7 @@ export const Eticaret = () => {
             <h3>Elektronik Ticaret Hukuku Nedir ?</h3>
             <p>Elektronik Ticaret Hukuku, Bilişim Hukuku ile bağlantılı bir alan olup, başta online alışverişler olmak üzere e-ticaret kapsamına giren mevzuat ile hukuki konulara ilişkin bir hukuk disiplinidir.</p>
 
-            <h3>Eloktronik Ticaret Hukuku Bakımından Hizmetlerimiz Nelerdir?</h3>
+            <h3>Elektronik Ticaret Hukuku Bakımından Hizmetlerimiz Nelerdir?</h3>
 
             <p>Erol Hukuk & Danışmanlık, Elektronik Ticaret (E-Ticaret) Hukuku kapsamında;</p>
             <p>•	Kuruluş öncesinde vergi yükümlülükleri, ödeme araç ve yöntemleri, marka, lisans gibi Fikri Mülkiyet konularını gözden geçirilmesi,</p>

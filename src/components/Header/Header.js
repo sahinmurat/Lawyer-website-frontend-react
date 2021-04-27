@@ -29,7 +29,7 @@ const Header = () => {
           }
         }}
       />
-      <Navbar style ='header' />
+      <Navbar color ='header' />
       <div className="main-info">
         <canvas></canvas>
         <h1>Doğru adrestesİnİz... </h1>

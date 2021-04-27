@@ -1,26 +1,24 @@
 import React from 'react'
-import { useHistory, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
-import { Eticaret, Kvkk, Tip, Sirket, Deniz, Fikir, Sözlesme, Vergi, Imar, Tüketici  } from './Content';
+import { Eticaret, Kvkk, Tip, Sirket, Deniz, Fikir, Sözlesme, Vergi, Imar, Tüketici } from './Content';
+import "./Detail.css"
 
-const a = [ 'Eticaret', 'Kvkk', 'Tip', 'Sirket', 'Deniz', 'Fikir', 'Sözlesme', 'Vergi', 'Imar', 'Tüketici']
 function Detail() {
     const { area } = useParams();
-    
-    
     return (
-        <div>
-            <Navbar style='detail'/>
-            {area == 'Kvkk'  ?  <Kvkk/> : null }
-            {area == 'Eticaret'  ?  <Eticaret/> : null }
-            {area == 'Tip'  ?  <Tip/> : null }
-            {area == 'Sirket'  ?  <Sirket/> : null }
-            {area == 'Deniz'  ?  <Deniz/> : null }
-            {area == 'Fikir'  ?  <Fikir/> : null }
-            {area == 'Sözlesme'  ?  <Sözlesme/> : null }
-            {area == 'Vergi'  ?  <Vergi/> : null }
-            {area == 'Imar'  ?  <Imar/> : null }
-            {area == 'Tüketici'  ?  <Tüketici/> : null }
+        <div className='containerr' style={{minHeight:"85vh"}}>
+            <Navbar color='detail' />
+            {area === 'kvkk' ? <Kvkk /> : null}
+            {area === 'eticaret' ? <Eticaret /> : null}
+            {area === 'tip' ? <Tip /> : null}
+            {area === 'sirket' ? <Sirket /> : null}
+            {area === 'deniz' ? <Deniz /> : null}
+            {area === 'fikir' ? <Fikir /> : null}
+            {area === 'sözlesme' ? <Sözlesme /> : null}
+            {area === 'vergi' ? <Vergi /> : null}
+            {area === 'imar' ? <Imar /> : null}
+            {area === 'tüketici' ? <Tüketici /> : null}
         </div>
     )
 }
