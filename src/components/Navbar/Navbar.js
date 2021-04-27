@@ -7,14 +7,14 @@ import logo from './logo.png'
 import { useParams } from 'react-router-dom';
 
 
-const Navbar = ({style}) => {
+const Navbar = ({color}) => {
     // this usage is possible too; for different classname 
     // let {area} = useParams();
     // let alternative;
     // detail=== ? alternative = "navbar bbb navbar-expand-lg navbar-light" : 
     // alternative = "navbar mainn navbar-expand-lg navbar-light"
     return (
-        <nav className={`navbar navbar-expand-lg navbar-light ${style}`}>
+        <nav className={`navbar navbar-expand-lg navbar-light ${color}`}>
             <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />

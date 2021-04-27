@@ -39,6 +39,7 @@
     background-position:bottom;
     border-radius: 20px;
     box-shadow: 5px -5px rgb(218, 171, 171);
+    
    }
 
 .elektro {
@@ -47,6 +48,7 @@
     background-repeat: no-repeat;
     background-position:bottom;
     position: relative;
+    cursor: pointer;
 }
 
 .tüketici {
@@ -54,6 +56,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 .imar {
@@ -61,6 +64,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 
 }
 .vergi {
@@ -68,6 +72,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 .sözlesme {
@@ -75,6 +80,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 .fikir {
@@ -82,6 +88,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 .deniz {
@@ -89,6 +96,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 .sirket {
@@ -96,6 +104,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 .tip {
@@ -103,6 +112,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 .kvkk {
@@ -110,6 +120,7 @@
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
+    cursor: pointer;
 }
 
 
