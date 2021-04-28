@@ -8,6 +8,7 @@ import Particles from "react-particles-js";
 const Header = () => {
   return (
     <div id="home" className="header-wrapper">
+      {/* where you want to use Particles, add it on this Component*/}
       <Particles
         className="particles-canvas"
         params={{
@@ -29,6 +30,7 @@ const Header = () => {
           }
         }}
       />
+      {/* you can use  Navbar with an addition on a component */}
       <Navbar color ='header' />
       <div className="main-info">
         <canvas></canvas>
