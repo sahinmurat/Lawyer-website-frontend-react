@@ -1,6 +1,6 @@
 ### you can follow the link, but it's on work https://emirerol.herokuapp.com/
 
-#### for backend look here https://github.com/sahinmurat/Lawyer-website-backend-django ( it's not yet optimised, but it's created)
+#### for backend look here https://github.com/sahinmurat/Lawyer-website-backend-django (backend will be used to add blog on the page)
 
 # Getting Started with Create React App
 
