@@ -13,7 +13,7 @@ const About = () => {
 
             <p className='punkt'>•Müvekkil ile kurulacak ilişkinin ilk kuralının, mesleki ve özel hayata dair paylaşılan tüm bilgilerin gizlilik çerçevesinde, özenle saklanması gerektiği bilincine sahip olarak,</p>
 
-            <p className='punkt'>•Başlanan hukuksal sürecin her aşamasında müvekkili bilgilendirme prensibiyle hareket ederek hizmet veren bir hukuk ve danışmanlık ofisidir.</p>
+            <p className='punkt' id='letzte_punkt'>•Başlanan hukuksal sürecin her aşamasında müvekkili bilgilendirme prensibiyle hareket ederek hizmet veren bir hukuk ve danışmanlık ofisidir.</p>
 
             {/* <p className='summary' >Erol Hukuk & Danışmanlık; Kişisel Verilerin Korunması Hukuku, Tıp Hukuku, Şirketler Hukuku, Deniz Ticaret Hukuku, Fikri ve Sınai Mülkiyet Hukuku, Sözleşmeler Hukuku, Vergi Hukuku, İmar Hukuku, Tüketici Hukuku ve Elektronik Ticaret (E-Ticaret) Hukuku alanlarında faaliyet göstermektedir.</p> */}
 

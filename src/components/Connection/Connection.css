@@ -16,7 +16,12 @@
 
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
-    background: var(--primary-dark);
+    /* background: var(--primary-dark); */
+    background: linear-gradient(
+      90deg,
+      rgb(14, 0, 104) -10%,
+      rgb(1, 0, 22) 100%
+  );
     padding: 3rem 0;
   }
   
