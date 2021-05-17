@@ -7,8 +7,16 @@
     --primary-red : rgb(220, 20, 60);
     --primary-dark-grey: rgb(102, 102, 102);
 }
+.containerr{
+    background: linear-gradient(
+        90deg,
+        rgb(255, 220, 231) 0%,
+        rgb(247, 248, 253) 100%
+    );
+}
+
 h2{
-    margin :50px 20px 20px 40px !important;
+    margin :0px 20px 20px 40px !important;
     text-align: center;
     color: var(--primary-red);
     font-family: 'Raleway', sans-serif;
