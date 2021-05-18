@@ -3,11 +3,10 @@ import './Navbar.css'
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import logo from './logo.png'
-import { useParams } from 'react-router-dom';
+import logo1 from './logo.png'
+import logo2 from './hukuk.png'
 
-
-const Navbar = ({color}) => {
+const Navbar = ({ color }) => {
     // this usage is possible too; for different classname 
     // let {area} = useParams();
     // let alternative;
@@ -15,7 +14,10 @@ const Navbar = ({color}) => {
     // alternative = "navbar mainn navbar-expand-lg navbar-light"
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${color}`}>
-            <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
+            <Link to="home" className="navbar-brand" smooth={true}
+                offset={-110}>
+                {color === 'header' ? <img className="logo" src={logo1} alt="logo..." /> : <img className="logo" src={logo2} alt="logo..." />}
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
             </button>

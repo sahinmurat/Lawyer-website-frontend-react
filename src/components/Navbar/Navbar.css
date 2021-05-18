@@ -67,6 +67,7 @@ nav ul li {
   .logo {
     height: 45px;
     border-radius: 10px;
+    cursor: pointer;
   }
 
 @media(max-width:400px) {
