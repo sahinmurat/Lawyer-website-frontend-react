@@ -11,10 +11,13 @@
 
 }
 
+#services{
+    /* background: linear-gradient(to right,rgb(255, 250, 250) ,rgb(201, 205, 255), rgb(255, 250, 250), rgb(201, 205, 255) ); */
+}
+
 .titel{
     text-align: center;
     color: var(--primary-red);
-    /* font-family: 'Comfortaa', cursive; */
     margin: 20px;
     font-weight: 600;
 }
@@ -49,6 +52,7 @@
     background-position:bottom;
     position: relative;
     cursor: pointer;
+    margin: 10px;
 }
 
 .tüketici {
@@ -57,7 +61,9 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+    margin: 10px;
 }
+
 
 .imar {
     background: url(im.jpg);
@@ -65,14 +71,16 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
-
+    margin: 10px;
 }
+
 .vergi {
     background: url(verg.jpg);
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+    margin: 10px;
 }
 
 .sözlesme {
@@ -81,6 +89,7 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+    margin: 10px;
 }
 
 .fikir {
@@ -89,6 +98,7 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+     margin: 10px;
 }
 
 .deniz {
@@ -97,6 +107,7 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+    margin: 10px;
 }
 
 .sirket {
@@ -105,6 +116,7 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+     margin: 10px;
 }
 
 .tip {
@@ -113,6 +125,13 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+    margin: 10px;
+}
+
+
+.a{
+    position: relative;
+    overflow: hidden;
 }
 
 .kvkk {
@@ -121,28 +140,24 @@
     background-repeat: no-repeat;
     background-position:bottom;
     cursor: pointer;
+    margin: 10px;
 }
-
 
 .aa{
-    /* background-color: rgba(121, 62, 74, 0.7);
     position: absolute;
+    background-color: rgba(255, 136, 0, 0.5) ;
+    width: 350px;
+    height: 350px;
     bottom: -100%;
-    border-radius: 20px; */
-    /* box-shadow: 5px -5px rgb(218, 171, 171); */
-    /* transition: .3s;
-    width: 100%;
-    height: 100%; */
+    transition: 0.5s;
+    margin: 10px;
+    border-radius: 20px;
 }
 
-/* .elektro:hover .aa{
+.a:hover .aa{
     bottom: 0;
-    margin-left: -10px;
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
+}
+.a:hover .activity-titel{
+    box-shadow: 0 0 rgb(102, 102, 102);
 }
 
-.elektro:hover{
-    box-shadow: none;
-} */
