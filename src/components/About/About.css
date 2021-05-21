@@ -19,11 +19,9 @@
     
 }
 
-h2{
+.aboutTitel{
     padding-top: 30px !important;
-}
-
-.titel{
+    margin: 0 !important;
     text-align: center;
     color: var(--primary-red);
     font-weight: 600;
@@ -31,10 +29,13 @@ h2{
 
 .start {
 padding: 30px;
+font-size: 20px !important;
+
 }
 
 .punkt {
 margin: 30px;
+font-size: 20px !important;
 }
 
 #letzte_punkt{

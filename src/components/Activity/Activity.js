@@ -43,43 +43,44 @@ function Activity() {
             <h2 className='titel'>FAALİYET ALANLARI</h2>
             <div className='wrapper-titel' >
                 <div className="a">
-                    <div className='activity-titel kvkk' onClick={() => history.push('/detail/kvkk')}  >KİŞİSEL VERİLERİN KORUNMASI</div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel kvkk'  >KİŞİSEL VERİLERİN KORUNMASI</div>
+                    <div className="aa" onClick={() => history.push('/detail/kvkk')} ><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel elektro' onClick={() => history.push('/detail/eticaret')} >ELEKTRONİK TİCARET (E-TİCARET) HUKUKU </div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel elektro'  >ELEKTRONİK TİCARET (E-TİCARET) HUKUKU </div>
+                    <div className="aa" onClick={() => history.push('/detail/eticaret')}><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel tüketici' onClick={() => history.push('/detail/tüketici')} >TÜKETİCİ HUKUKU</div>
+                    <div className='activity-titel tüketici'  >TÜKETİCİ HUKUKU</div>
+                    <div className="aa" onClick={() => history.push('/detail/tüketici')}><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel imar' onClick={() => history.push('/detail/imar')} >IMAR HUKUKU </div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel imar'  >IMAR HUKUKU </div>
+                    <div className="aa" onClick={() => history.push('/detail/imar')}><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel sözlesme' onClick={() => history.push('/detail/sözlesme')}  >SÖZLEŞMELER HUKUKU </div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel sözlesme'   >SÖZLEŞMELER HUKUKU </div>
+                    <div className="aa" onClick={() => history.push('/detail/sözlesme')}><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel fikir' onClick={() => history.push('/detail/fikir')} >FİKRİ VE SINAİ MÜLKİYET HUKUKU</div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel fikir' >FİKRİ VE SINAİ MÜLKİYET HUKUKU</div>
+                    <div className="aa" onClick={() => history.push('/detail/fikir')} ><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel deniz' onClick={() => history.push('/detail/deniz')}  >DENİZ TİCARETİ HUKUKU</div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel deniz'   >DENİZ TİCARETİ HUKUKU</div>
+                    <div className="aa" onClick={() => history.push('/detail/deniz')}><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel sirket' onClick={() => history.push('/detail/sirket')} >ŞİRKETLER HUKUKU</div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel sirket'  >ŞİRKETLER HUKUKU</div>
+                    <div className="aa" onClick={() => history.push('/detail/sirket')}><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel tip' onClick={() => history.push('/detail/tip')} >TIP HUKUKU</div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel tip' >TIP HUKUKU</div>
+                    <div className="aa" onClick={() => history.push('/detail/tip')}><p className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel vergi' onClick={() => history.push('/detail/vergi')} >VERGI HUKUKU</div>
-                    <div className="aa"><p>Detaylar...</p></div>
+                    <div className='activity-titel vergi'  >VERGI HUKUKU</div>
+                    <div className="aa" onClick={() => history.push('/detail/vergi')}><p className='curtain'>Detaylar....</p></div>
                 </div>
             </div>
         </div>

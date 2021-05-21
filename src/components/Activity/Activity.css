@@ -152,6 +152,9 @@
     transition: 0.5s;
     margin: 10px;
     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .a:hover .aa{
@@ -161,3 +164,14 @@
     box-shadow: 0 0 rgb(102, 102, 102);
 }
 
+.curtain{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 35px;
+    /* background-color: rgba(255, 136, 0, 1); */
+    background: linear-gradient( 144deg , rgba(255, 136, 0, 0.7), rgb(238, 203, 128),  rgba(255, 136, 0, 1), rgb(255, 250, 250) );
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+}
