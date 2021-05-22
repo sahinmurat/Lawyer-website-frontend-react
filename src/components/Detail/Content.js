@@ -204,7 +204,7 @@ export const Tüketici = () => {
 export const Eticaret = () => {
     return (
         <div>
-            <h2 className='firstTitel'>ELEKTRONİK TİCARET(E - TİCARET) HUKUKU</h2>
+            <h2 className='firstTitel'>ELEKTRONİK TİCARET (E - TİCARET) HUKUKU</h2>
             <h3 className='secondTitel'>Elektronik Ticaret Hukuku Nedir ?</h3>
             <p className='text'>Elektronik Ticaret Hukuku, Bilişim Hukuku ile bağlantılı bir alan olup, başta online alışverişler olmak üzere e-ticaret kapsamına giren mevzuat ile hukuki konulara ilişkin bir hukuk disiplinidir.</p>
 
@@ -221,7 +221,7 @@ export const Eticaret = () => {
             <p className='text'>•	Elektronik kayıtların saklanması,</p>
             <p className='text'>•	Elektronik haberleşme için onayların alınması, elektronik pazarlama faaliyetlerinin düzenlemelere uygun hale getirilmesi,</p>
             <p className='text'>•	Güven damgası sistemine dahil olunması,</p>
-            <p className='text'>•	Elektronik Ticaret Bilgi Sistemi (ETBİS)’ e kayıt konusunda çözüm odaklı ve etkin yöntemler ile avukatlık hizmeti vermektedir."</p>
+            <p className='text'>•	Elektronik Ticaret Bilgi Sistemi (ETBİS)’ e kayıt konusunda çözüm odaklı ve etkin yöntemler ile avukatlık hizmeti vermektedir.</p>
         </div>
     )
 }
