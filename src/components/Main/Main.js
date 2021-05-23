@@ -1,6 +1,7 @@
 import React from 'react'
 import About from '../About/About'
 import Activity from '../Activity/Activity'
+import Blog from '../blog/Blog'
 import Connection from '../Connection/Connection'
 import Header from '../Header/Header'
 
@@ -10,6 +11,7 @@ function Main() {
             <Header />
             <About />
             <Activity />
+            <Blog />
             <Connection />
         </div>
     )
