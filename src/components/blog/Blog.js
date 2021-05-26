@@ -5,7 +5,6 @@ function Blog() {
         <div>
            <h2> Blog  Page </h2> 
            <p>Last Content</p>
-
         </div>
     )
 }
