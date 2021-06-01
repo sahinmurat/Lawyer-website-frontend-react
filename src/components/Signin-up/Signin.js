@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
-import { AuthContext } from '../App'
+import { AuthContext } from '../../App'
 import { useParams } from 'react-router-dom'
 import Swal from 'sweetalert2'
 
@@ -71,10 +71,9 @@ export default function Signin(props) {
   const history = useHistory();
 
   const { token, setToken, currentuser, setCurrentuser } = useContext(AuthContext);
-  var  newusername = username.replace(" ", "")
 
   const handleSubmit = async () => {
-    await axios.post('https://sahinblog.herokuapp.com/auth/login/', { newusername, email, password })
+    await axios.post('https://emirback.herokuapp.com/auth/login/', { username, email, password })
       .then((e) => {
         setToken(e.data.key);
         localStorage.setItem('localToken', e?.data?.key);
