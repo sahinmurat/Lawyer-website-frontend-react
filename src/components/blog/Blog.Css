@@ -1,0 +1,13 @@
+.blog-title {
+    text-align: center;
+    color: crimson;
+}
+
+.post-title{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.post-title:hover{
+    color: crimson;
+}
