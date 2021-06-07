@@ -8,7 +8,6 @@ import Signin from "../components/Signin-up/Signin";
 import { AuthContext } from '../App'
 import Admin from "../components/Admin/Admin";
 import PostDetail from "../components/PostDetail/PostDetail";
-// import Signup from "../components/Signin-up/Signup";
 
 const AppRouter = () => {
     const { token } = useContext(AuthContext);
