@@ -1,7 +1,7 @@
 import React from 'react'
 import About from '../About/About'
 import Activity from '../Activity/Activity'
-import Blog from '../blog/Blog'
+import Blog from '../Blog/Blog'
 import Connection from '../Connection/Connection'
 import Header from '../Header/Header'
 
