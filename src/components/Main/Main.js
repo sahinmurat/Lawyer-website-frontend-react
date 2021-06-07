@@ -3,7 +3,7 @@ import About from '../About/About'
 import Activity from '../Activity/Activity'
 import Connection from '../Connection/Connection'
 import Header from '../Header/Header'
-import Blog from '../Blog/Blog'
+import Blog from '../BlogPage/Blog'
 
 function Main() {
     return (
