@@ -1,9 +1,9 @@
 import React from 'react'
 import About from '../About/About'
 import Activity from '../Activity/Activity'
-import Blog from '../Blog/Blog.js'
 import Connection from '../Connection/Connection'
 import Header from '../Header/Header'
+import Blog from '../Blog/Blog'
 
 function Main() {
     return (
@@ -11,7 +11,7 @@ function Main() {
             <Header />
             <About />
             <Activity />
-            <Blog />
+            <Blog/>
             <Connection />
         </div>
     )
