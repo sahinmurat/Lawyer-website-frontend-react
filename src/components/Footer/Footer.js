@@ -5,8 +5,6 @@ import {
   FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
   LinkedinShareButton,
   LinkedinIcon
 } from "react-share";

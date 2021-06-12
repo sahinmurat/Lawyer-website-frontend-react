@@ -1,0 +1,5 @@
+.detailWrapper{
+    padding: 30px;
+    font-size: 23px;
+    background: linear-gradient(135deg,rgb(255, 240, 240) ,rgb(233, 233, 233), rgb(255, 240, 240), rgb(243, 243, 243) );
+}

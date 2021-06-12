@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
+import './PostDetail.css'
 
 function PostDetail() {
     const location = useLocation();
@@ -7,9 +8,11 @@ function PostDetail() {
     console.log('params', myparam)
     return (
         <div>
-            <p> {myparam.item.title}</p>
-            <p>{myparam.item.content}</p>
-            <img src={myparam.item.image} alt="ilgili resim" />
+            <div className='detailWrapper'
+                dangerouslySetInnerHTML={{
+                    __html: myparam.item.content,
+                }}
+            ></div>
         </div>
     )
 }
