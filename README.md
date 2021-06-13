@@ -1,7 +1,8 @@
 ### you can follow the link, but it's on work https://emirerol.herokuapp.com/
 
 #### for backend look here https://github.com/sahinmurat/Lawyer-website-backend-django (backend will be used to add blog on the page)
-#### https://emirback.herokuapp.com/  backend api url
+#### https://emirback.herokuapp.com/  backend api url.
+#### Via admin panel admin update the datas.
 
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
