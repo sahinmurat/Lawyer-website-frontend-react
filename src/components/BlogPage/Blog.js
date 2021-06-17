@@ -9,11 +9,15 @@ import './BlogStyle.css'
 
 const useStyles = makeStyles((theme) => ({
     root: {
-      display: 'flex',
+      textAlign:'center',
       '& > * + *': {
         marginLeft: theme.spacing(2),
       },
     },
+    circular : {
+        textAlign:'center',
+        backgroundColor:'#191970'
+    }
   }));
 
 function Blog() {
@@ -29,30 +33,19 @@ function Blog() {
     const fetchData = async () => {
         var result = await axios.get('https://emirback.herokuapp.com/list');
         setList(result.data.results);
-        console.log('result.data', result.data.results);
     }
- 
+ console.log(list)
     return (
         <div>
-            <h2 class="blog-title "> En Son Eklenenler </h2>
-{list ? list.map((item, index) => {
+            <h2 className="blog-title "> En Son Eklenenler </h2>
+{list.length > 0 ? list.map((item, index) => {
                     return(
-                        <h5 class="post-title" key= {index} onClick={() => history.push(`/makale/${item.title}`, { params: { item } })} >{item.title}</h5>
+                        <h5 className="post-title" key= {index} onClick={() => history.push(`/makale/${item.title}`, { params: { item } })} >{item.title}</h5>
                     )
                 }) : <div className={classes.root}>
-                        <LinearProgress color="secondary" />
-                        <CircularProgress color="secondary" />
-                        <LinearProgress color="secondary" />
+                        <CircularProgress className={classes.circular} color="secondary" />
                     </div>}
 
-
-            {/* {
-                list?.map((item, index) => {
-                    return(
-                        <h5 class="post-title" key= {index} onClick={() => history.push(`/makale/${item.title}`, { params: { item } })} >{item.title}</h5>
-                    )
-                })
-            } */}
         </div>
     )
 }
