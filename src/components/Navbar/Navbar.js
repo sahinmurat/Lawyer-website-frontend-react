@@ -36,7 +36,7 @@ const Navbar = ({ color }) => {
                             offset={-110} >Faalİyet Alanları</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href="#" smooth={true}
+                        <Link className="nav-link" href="#" to='blogPage' smooth={true}
                             offset={-110} >Blog</Link>
                     </li>
                     <li className="nav-item">

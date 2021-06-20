@@ -36,7 +36,7 @@ function Blog() {
     }
  console.log(list)
     return (
-        <div>
+        <div id='blogPage'>
             <h2 className="blog-title "> En Son Eklenenler </h2>
 {list.length > 0 ? list.map((item, index) => {
                     return(
