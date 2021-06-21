@@ -38,7 +38,7 @@ const Header = () => {
         <h1>Av. Emir EROL </h1>
         <Typed
           className="typed-text"
-          strings={["Medeni Hukuk", "Borclar Hukuku", "Miras Davalari", "Uzlasma", "Ceza Hukuku"]}
+          strings={["KİŞİSEL VERİLERİN KORUNMASI", "E-TİCARET HUKUKU", "TÜKETİCİ HUKUKU", "İMAR HUKUKU", "SÖZLEŞMELER HUKUKU","FİKRİ VE SINAİ MÜLKİYET HUKUKU","DENİZ TİCARETİ HUKUKU","ŞİRKETLER HUKUKU", "TIP HUKUKU", "VERGİ HUKUKU"]}
           typeSpeed={60}
           backSpeed={70}
           loop
