@@ -55,7 +55,7 @@ function Activity() {
                     <div className="aa" ><p  onClick={() => history.push('/detail/tüketici')} className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel imar'  >IMAR HUKUKU </div>
+                    <div className='activity-titel imar'  >İMAR HUKUKU </div>
                     <div className="aa"><p  onClick={() => history.push('/detail/imar')} className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
@@ -79,7 +79,7 @@ function Activity() {
                     <div className="aa" onClick={() => history.push('/detail/tip')}><p onClick={() => history.push('/detail/tip')} className='curtain'>Detaylar....</p></div>
                 </div>
                 <div className="a">
-                    <div className='activity-titel vergi'  >VERGI HUKUKU</div>
+                    <div className='activity-titel vergi'  >VERGİ HUKUKU</div>
                     <div className="aa" ><p onClick={() => history.push('/detail/vergi')} className='curtain'>Detaylar....</p></div>
                 </div>
             </div>
