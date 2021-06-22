@@ -35,7 +35,7 @@ const Header = () => {
       <div className="main-info">
         <canvas></canvas>
         <h1>Doğru adrestesİnİz... </h1>
-        <h1>Av. Emir EROL </h1>
+        <h1>Av. Emİr EROL </h1>
         <Typed
           className="typed-text"
           strings={["KİŞİSEL VERİLERİN KORUNMASI", "E-TİCARET HUKUKU", "TÜKETİCİ HUKUKU", "İMAR HUKUKU", "SÖZLEŞMELER HUKUKU","FİKRİ VE SINAİ MÜLKİYET HUKUKU","DENİZ TİCARETİ HUKUKU","ŞİRKETLER HUKUKU", "TIP HUKUKU", "VERGİ HUKUKU"]}

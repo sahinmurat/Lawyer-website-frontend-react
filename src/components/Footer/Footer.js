@@ -17,13 +17,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>Asagi Mah. 12 Sok. Izmit</p>
+              <p>Karabaş Mah. Müneccim Arif Sk. No:8 D:2 İzmit/Kocaeli</p>
             </div>
             <div className="d-flex">
-              <p><a href="tel:+905555555555">+90 555 555 55 55</a></p>
+              <p><a href="tel:+905437792299">+90 543 779 22 99</a></p>
             </div>
             <div className="d-flex">
-              <p>emirerol.av.tr</p>
+              <p>av.hasanemirerol@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">
