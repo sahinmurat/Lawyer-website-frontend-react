@@ -35,7 +35,8 @@
 
 .navbar-brand {
     color: var(--primary-white) !important;
-}
+       }
+    
 
   /* ----------menu links-----------*/
 nav a.nav-link {
@@ -68,8 +69,12 @@ nav ul li {
     height: 45px;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 2s ease-in-out;
   }
-
+  .logo:hover{
+    transform: rotateZ(360deg);
+  }
+ 
 @media(max-width:400px) {
     .logo {
       height: 37px;
