@@ -3,7 +3,6 @@ import axios from 'axios'
 import { useHistory } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import LinearProgress from '@material-ui/core/LinearProgress'
 
 import './BlogStyle.css'
 
@@ -51,7 +50,7 @@ function Blog() {
             </div>
             
 
-        </div>
+        </div> 
     )
 }
 

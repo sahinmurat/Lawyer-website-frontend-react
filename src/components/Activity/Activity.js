@@ -7,37 +7,8 @@ import { faLink, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import Share from './den.jpg'
 
 function Activity() {
-    const [curtain, setCurtain] = useState(false);
-    const url = {
-        share: {
-            link: "https://sharewithreact.vercel.app/",
-            github: "https://github.com/abdullahclarusway/React_Share",
-        },
-        netflix: {
-            link: "https://netflix-clone-with-react.vercel.app/",
-            github: "https://github.com/abdullahclarusway/Netflix_Clone_with_React",
-        },
-        job: {
-            link: "https://job-search-abdullahclarusway.vercel.app/",
-            github: "https://github.com/abdullahclarusway/Job_Search_with_React",
-        },
-        clothing: {
-            link: "https://lighthouse-clothing.vercel.app/",
-            github:
-                "https://github.com/abdullahclarusway/Lighthouse_Clothing_E_Commerce",
-        },
-        linkedIn: {
-            link: "https://my-linkedln-abdullahclarusway.vercel.app/",
-            github:
-                "https://github.com/abdullahclarusway/Linkedln_Clone_with_REACT.JS",
-        },
-        facebook: {
-            link: "https://facebook-clone-abdullahclarusway.vercel.app/",
-            github: "https://github.com/abdullahclarusway/Facebook_Clone_with_REACT",
-        },
-    };
+    
     const history = useHistory();
-    const { savedjobs } = useParams();
     return (
         <div id="services" className='wrapper-all' >
             <h2 className='titel'>FAALİYET ALANLARI</h2>
